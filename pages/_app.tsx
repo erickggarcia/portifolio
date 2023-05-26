@@ -14,7 +14,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
             </Link>
           </li>
           <li className="linkHeader">
-            <Link className="link" href="/sobre">
+            <Link className="link" href="#">
               Sobre
             </Link>
           </li>

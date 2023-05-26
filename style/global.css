@@ -22,12 +22,13 @@ body {
 
 .linkHeader {
   padding: 5px;
+  transition: transform 0.7s;
 }
 
 .linkHeader:hover {
   background-color: #454ebc;
-  transition: 0.5s;
   border-radius: 5px;
+  transition: 0.5s;
 }
 
 .linkHeader.contato {
@@ -38,7 +39,7 @@ body {
 }
 
 .linkHeader.contato:hover {
-  background-color: #101a42;
+  transform: scale(1.1);
   cursor: pointer;
 }
 
